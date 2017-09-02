@@ -1,0 +1,9 @@
+CREATE KEYSPACE demokeyspace
+  WITH REPLICATION = { 
+   'class' : 'SimpleStrategy', 
+   'replication_factor' : 2 
+  };
+
+create table employee(id varchar primary key, name varchar, dept varchar);
+
+insert into employee(id,name,dept) values('1000','Anil','IT');
