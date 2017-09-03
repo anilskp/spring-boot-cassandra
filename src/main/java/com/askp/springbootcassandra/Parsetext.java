@@ -48,10 +48,10 @@ public class Parsetext {
     @RequestMapping("/employees/{id}")
     public Employee getEmployee(@PathVariable String id){
 
-        return employeeService.getEmploye(id);
+        return employeeService.getEmployee(id);
     }
 
-    @RequestMapping("/employees/{name}")
+    @RequestMapping("/employeename/{name}")
     public Employee getEmployeeByName(@PathVariable String name){
 
         return employeeRepository.findByName(name);

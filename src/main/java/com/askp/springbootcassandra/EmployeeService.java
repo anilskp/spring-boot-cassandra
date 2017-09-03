@@ -24,7 +24,7 @@ public class EmployeeService {
 
     }
 
-    public Employee getEmploye(String id){
+    public Employee getEmployee(String id){
 
         return employeeRepository.findOne(id);
     }
