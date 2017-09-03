@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.askp</groupId>
-	<artifactId>spring-boot-casandra</artifactId>
+	<artifactId>spring-boot-cassandra</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-casandra</name>
+	<name>spring-boot-cassandra</name>
 	<description>Demo project for Spring Boot Cassandra</description>
 
 	<parent>
