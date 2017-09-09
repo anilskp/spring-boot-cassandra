@@ -1,5 +1,6 @@
 package com.askp.springbootcassandra;
 
+
 import org.springframework.data.cassandra.mapping.PrimaryKey;
 import org.springframework.data.cassandra.mapping.Table;
 
